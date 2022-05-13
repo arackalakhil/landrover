@@ -1,0 +1,512 @@
+body {
+    margin: 0;
+
+}
+
+.container {
+    margin: 0;
+    background-color: white;
+    height: 80px;
+    padding-right: 70px;
+}
+
+.logo_nav {
+    display: flex;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one img {
+    margin-left: 25px;
+    margin-right: 0;
+    margin-top: 18px;
+    width: 90px;
+    height: 50px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.inline li {
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.73px;
+    color: #0c121c;
+}
+
+.search {
+    cursor: pointer;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.three img {
+
+    margin-left: 30px;
+    width: 29px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.bg {
+    padding-top: 1px;
+    margin-top: auto;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+
+}
+
+.box {
+    cursor: pointer;
+    margin: 0 100px;
+    margin-top: 100px;
+    width: 229px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.849);
+    padding: 30px;
+    text-align: center;
+
+}
+
+.head1 {
+    font-size: 38px;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.73px;
+    text-align: left;
+    color: #0c121c;
+    margin: 0px !important;
+}
+
+.sub1 {
+    margin: 0px !important;
+    font-size: 14px;
+    font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.36px;
+    color: #0c121c;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 11px 27px;
+}
+
+.arrange {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    background-color: white;
+
+}
+
+.mini {
+    margin-left: 0px;
+    margin-right: 0;
+    margin-top: 18px;
+    width: 60px;
+
+
+}
+
+.reserve {
+    padding-left: 25px;
+    flex: 25%;
+    border-right: 1px solid #e9ecec;
+}
+
+.view {
+    padding-left: 25px;
+    flex: 25%;
+    border-right: 1px solid #e9ecec;
+}
+
+.book {
+    padding-left: 25px;
+    flex: 25%;
+    border-right: 1px solid #e9ecec;
+}
+
+.contact {
+    padding-left: 25px;
+    flex: 25%;
+    padding-right: 35px;
+}
+
+.book .boo {
+    font-size: 45px;
+}
+
+.view .vie {
+    font-size: 45px;
+}
+
+.reserve .res {
+    font-size: 45px;
+}
+
+.contact .cont {
+    font-size: 45px;
+}
+
+.size {
+    color: #0c121c;
+    font-size: 16px;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+}
+
+.size1 {
+    color: #4a4f54;
+    font-size: 16px;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+}
+
+.backviolet {
+    margin-top: auto;
+    background-color: #e9ecec;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1050px;
+    ;
+}
+
+.heading {
+    margin: 0;
+    padding: 60px;
+    letter-spacing: 0.05em;
+    font-size: 35px;
+    font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+    text-align: center;
+}
+
+.models {
+    margin-top: 50px;
+    display: flex;
+    padding: 0 100px;
+
+}
+
+.models1 {
+    margin-top: 50px;
+}
+
+.first {
+    cursor: pointer;
+}
+
+.second {
+    cursor: pointer;
+    padding-left: 50px;
+    margin-left: 10px;
+}
+
+.third {
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+.fourth {
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+.models .car {
+    width: 100%;
+}
+
+.name {
+    color: #0c121c;
+    font-size: 14px;
+    font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+
+}
+
+.define {
+    color: #4a4f54;
+    font-size: 14px;
+    font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+
+}
+
+.find {
+    color: #0c121c;
+    font-size: 11px;
+    font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+    font-weight: 600;
+}
+
+.build {
+    color: #0c121c;
+    font-size: 11px;
+    font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+    font-weight: 600;
+
+}
+
+.backwhite {
+    background-color: #f8f9f9;
+    margin: top 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.backblack {
+    background-color: #4a4f54;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.heading1 {
+    margin: 0;
+    font-size: 38px;
+    color: #E4E8E8;
+    font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+    font-weight: 700;
+}
+
+.name.name1 {
+    font-size: 16px;
+    color: #e4e8e8 !important;
+    font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+    font-weight: 700;
+}
+
+.define1 {
+    color: #e4e8e8;
+    font-size: 14px;
+    letter-spacing: .02rem;
+}
+
+.find1 {
+    color: #FFFF;
+    font-size: 14px;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    letter-spacing: 1.73px;
+}
+
+.blackandwhite {
+    background-color: #f8f9f9;
+    margin: top 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.heading2 {
+
+    margin: 10px;
+    font-size: 38px;
+    color: #0c121c;
+    font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.name2 {
+    font-size: 15px;
+    color: #0c121c;
+    font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+}
+
+.define2 {
+    color: #4a4f54;
+    font-size: 14px;
+    font-family: "AvenirNext", "arial", "helvetica", "sans-serif";
+}
+
+.find2 {
+    color: #0c121c;
+    font-size: 11px;
+    font-family: "lr_ot4", "arial", "helvetica", "sans-serif";
+}
+
+.backimage {
+    padding: 1px;
+    margin-top: 100PX;
+    background-image: url(18.webp);
+    margin-top: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+
+}
+
+
+.box1 {
+    margin: 0 auto;
+    margin-top: 74px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.849);
+    padding: 5px;
+    text-align: center;
+}
+
+.head3 {
+    color: #0c121c;
+    font-size: 38px;
+    font-family: "lr_ot4", "arial", "helvetica", "sans-serif";
+}
+
+.sub3 {
+    color: #4a4f54;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button2 {
+    cursor: pointer;
+    width: 204px;
+    height: 46px;
+    size: 30px;
+    background-color: #0c121c;
+    color: #FFFF;
+}
+
+.sub4 {
+    size: 8px;
+    color: #FFFF;
+    padding-top: 13PX;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.backgray {
+    background-color: #4a4f54;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.table {
+    display: flex;
+}
+
+.heading3 {
+    color: #FFFF;
+    font-size: 14px;
+    padding-bottom: 35px;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    letter-spacing: 1.73px;
+}
+
+.sub5 {
+    color: #FFFF;
+    font-size: 10px;
+    padding-bottom: 25px;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.73px;
+}
+
+.table {
+    justify-content: space-evenly;
+}
+
+.ulclass {
+    list-style: none;
+
+}
+
+.imgs {
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.sub5 {
+    display: flex;
+    align-items: center;
+}
+
+.end {
+    display: flex;
+
+}
+
+.final {
+    margin-top: 10px;
+    padding-left: 50px;
+    color: #4a4f54;
+    font-size: 15px;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    margin-bottom: 10px;
+    size: 300;
+
+}
+
+.last {
+    font-size: 13px;
+    color: #4a4f54;
+    padding: 10px 100px 50px 100px;
+
+}
+
+.button-container {
+    position: fixed;
+    top: 150px;
+    right: 45px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button-holder {
+    background: #005a2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.bsize {
+    font-size: 30px;
+    color: #ffff;
+}
+
+.button-live {
+    position: fixed;
+    top: 80%;
+    left: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.button-help {
+    background: #005a2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 142px;
+
+}
+
+.live {
+    color: white;
+    font-size: 20px;
+}
