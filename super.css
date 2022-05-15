@@ -474,7 +474,7 @@ button {
     background: #005a2b;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     height: 50px;
     width: 50px;
     border-radius: 50px;
@@ -482,6 +482,7 @@ button {
 
 .bsize {
     font-size: 30px;
+    margin: 0;
     color: #ffff;
 }
 
